@@ -1,0 +1,28 @@
+{
+  "name": "saucedemojs",
+  "version": "1.0.0",
+  "description": "Automated testing using Cypress for the SauceDemo application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcardosopereira/sauceDemoJS.git"
+  },
+  "keywords": [
+    "Cypress",
+    "JavaScript",
+    "SauceDemo"
+  ],
+  "author": "Rafael C. Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcardosopereira/sauceDemoJS/issues"
+  },
+  "homepage": "https://github.com/rcardosopereira/sauceDemoJS#readme",
+  "devDependencies": {
+    "cypress": "^13.6.2"
+  }
+}
