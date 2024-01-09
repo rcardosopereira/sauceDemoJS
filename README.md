@@ -18,6 +18,18 @@ Link: https://www.saucedemo.com/
 You need to install the Node.js as the main dependency to use Cypress in this project.
 You can click in [here](https://nodejs.org/en/) to download the latest stable Node version.
 
+Open a terminal or command prompt.
+Navigate to the root directory of your Node.js project (where your package.json file is located).
+Run the following command:
+> ```bash
+>  npm install
+> ```
+
+This will read the package.json file and install all the dependencies specified in the dependencies and devDependencies sections.
+Optionally, you can also run npm ci instead of npm install for a clean install using the exact versions specified in the package-lock.json file.
+Wait for the command to complete. npm will download and install the dependencies into a node_modules folder in your project.
+This command is crucial when setting up a new project or when someone else shares their project with you, as it installs all the necessary packages and dependencies specified in the project's package.json file.
+
 After that, you can clone this repository in your local machine.
 > ```bash
 >  git clone git@github.com:rcardosopereira/sauceDemoJS.git
